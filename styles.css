@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('./IMG/background.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+}
+
+#gameContainer {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto; 
+    max-width: 800px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+button {
+    margin: 20px 0;
+    padding: 10px 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+#choices img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+#images img {
+    width: 150px;
+    height: 150px;
+}
+
+#images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#countdown {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#feedback, #rounds {
+    margin-top: 10px;
+}
+
+#feedback {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#playerContainer, #computerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
